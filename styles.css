@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+/* GLOBAL STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body{
+    font-family:fantasy
+    background-color: #14000f;
+    background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
+
+ }
+
+ 
+ h1{font-family: fantasy;
+    ;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    }
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    top: 30px;
+}
+
+li{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(128, 128, 128, 0.616);
+    margin-top: 15px;
+ 
+
+}
+
+li img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
